@@ -1,0 +1,46 @@
+
+
+.header {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+.container {
+    text-align: center;
+    background-color: #dfebf0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 15px;
+    row-gap: 1em;
+}
+.title {
+    font-family: sans-serif;
+    font-size: 1.1rem;
+}
+
+
+img {
+    border-style:solid;
+    border-radius: 1rem;
+    border-color:darkslategray;
+    border-width: 4px;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+
+  
+  #heart:hover {
+    color: red;
+  }
+
+p {
+    display: grid;
+    font-size: 17px;
+}
