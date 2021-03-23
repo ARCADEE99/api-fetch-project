@@ -34,7 +34,7 @@ async function renderUsers() {
         html += htmlSegment;
     });
 
-    let container = document.querySelector('.container'); // Elementet siper kalohen ne html, tek div me class container
+    let container = document.querySelector('.container');
     container.innerHTML = html;
 }
 
